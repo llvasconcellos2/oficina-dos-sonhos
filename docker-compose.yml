@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "8080:80"
+    volumes:
+      - ./www:/var/www/html
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: on-failure
+
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: vertrigo
+      MYSQL_DATABASE: oficinadossonhos
+    command: --sql-mode="" --character-set-server=utf8 --collation-server=utf8_general_ci
+    volumes:
+      - ./db/oficinadossonhos.sql:/docker-entrypoint-initdb.d/init.sql
+      - db_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-pvertrigo"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+
+volumes:
+  db_data:
