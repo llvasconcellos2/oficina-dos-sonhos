@@ -6,9 +6,9 @@ class JConfig {
 	var $helpurl = 'http://help.joomla.org';
 	var $debug = '0';
 	var $debug_lang = '0';
-	var $sef = '0';
-	var $sef_rewrite = '0';
-	var $sef_suffix = '0';
+	var $sef = '1';
+	var $sef_rewrite = '1';
+	var $sef_suffix = '1';
 	var $feed_limit = '10';
 	var $feed_email = 'author';
 	var $secret = 'lreGaQ5lkPls2NW0';
@@ -23,8 +23,7 @@ class JConfig {
 	var $caching = '0';
 	var $cachetime = '15';
 	var $cache_handler = 'file';
-	var $memcache_settings = array(
-		);
+	var $memcache_settings = array();
 	var $ftp_enable = '0';
 	var $ftp_host = 'ftp.devhouse.com.br';
 	var $ftp_port = '21';
@@ -32,7 +31,7 @@ class JConfig {
 	var $ftp_pass = '';
 	var $ftp_root = '';
 	var $dbtype = 'mysql';
-	var $host = 'localhost';
+	var $host = 'db';
 	var $user = 'root';
 	var $db = 'oficinadossonhos';
 	var $dbprefix = 'jos_';
@@ -47,10 +46,11 @@ class JConfig {
 	var $MetaAuthor = '0';
 	var $MetaTitle = '1';
 	var $lifetime = '90';
-	var $session_handler = 'database';
+	var $session_handler = 'none';
 	var $password = 'vertrigo';
 	var $sitename = 'Oficina dos Sonhos';
 	var $MetaDesc = 'Portal Escola Oficina dos Sonhos';
 	var $MetaKeys = 'Escola, Oficina, Sonhos, evangélicos, cristãos, quadrangular, colégio, primário, Joinville, Santa Catarina';
 	var $offline_message = 'Este site está em manutenção. Por favor, retorne mais tarde.';
 }
+?>

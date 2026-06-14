@@ -28,7 +28,7 @@ if (!defined ('_JA_TRANS_MENU_CLASS')) {
 				<script type="text/javascript" language="javascript">
 				//<!--[CDATA[
 				if (TransMenu.isSupported()) {
-					TransMenu.updateImgPath(\'',dirname(__FILE__),'/\');
+					TransMenu.updateImgPath(\'templates/jaolyra/ja_menus/\');
 					var ms = new TransMenuSet(',$direction,', ', $left,', ',$top,', ',$position,');
 					TransMenu.subpad_x = ',$subpad_x,';
 					TransMenu.subpad_y = ',$subpad_y,';

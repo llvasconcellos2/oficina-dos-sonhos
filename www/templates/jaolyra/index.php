@@ -52,10 +52,38 @@ document.write ('<style type="text\/css">.ja-tab-content{display: none;}\n#ja-hp
 
 <link href="<?php echo $tmpTools->templateurl();?>/css/colors/<?php echo $tmpTools->getParam(JA_TOOL_COLOR); ?>.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="images/favicon.ico" />
-
+<script>
+  if (typeof Symbol !== 'undefined' && Symbol.hasInstance) {
+    // Redefine how 'instanceof Element' works browser-wide
+    Object.defineProperty(Element, Symbol.hasInstance, {
+      value: function(instance) {
+        return !!(instance && instance.nodeType === 1);
+      },
+      configurable: true
+    });
+    
+    // Redefine how 'instanceof HTMLElement' works browser-wide
+    if (typeof HTMLElement !== 'undefined') {
+      Object.defineProperty(HTMLElement, Symbol.hasInstance, {
+        value: function(instance) {
+          return !!(instance && instance.nodeType === 1 && typeof instance.tagName === 'string');
+        },
+        configurable: true
+      });
+    }
+  }
+</script>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+<script>
+window.RufflePlayer.config = {
+	autoplay: "on",
+	unmuteOverlay: "hidden",
+	splashScreen: false,
+};
+</script>
 </head>
 <?
-$dir=opendir("C:\\ServidorWEB\\www\\oficinadossonhos\\images\\backgrounds");
+$dir=opendir("./images/backgrounds");
 
 $i=0;
 while($imgfile=readdir($dir))
