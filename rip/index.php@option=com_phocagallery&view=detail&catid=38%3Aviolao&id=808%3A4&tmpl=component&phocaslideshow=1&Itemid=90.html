@@ -15,7 +15,7 @@
  </style>
 
 	<link rel="stylesheet" href="templates/system/css/general.css" type="text/css" />
-	<link rel="stylesheet" href="http://localhost/oficinadossonhos/templates/system/css/template.css" type="text/css" />
+	<link rel="stylesheet" href="templates/system/css/template.css" type="text/css" />
 
 </head>
 <body class="contentpane">
@@ -23,7 +23,7 @@
 	<script type="text/javascript"> 
 /* <![CDATA[ */    
 /***********************************************
-* Ultimate Fade-In Slideshow (v1.51): � Dynamic Drive (http://www.dynamicdrive.com)
+* Ultimate Fade-In Slideshow (v1.51): � Dynamic Drive (http://www.dynamicdrive.com)
 * This notice MUST stay intact for legal use
 * Visit http://www.dynamicdrive.com/ for this script and 100s more.
 ***********************************************/
@@ -65,7 +65,7 @@ var fadeheight=fadeheight+this.imageborder*2
 if (iebrowser&&dom||dom) /*if IE5+ or modern browsers (ie: Firefox)*/
 document.write('<div id="master'+this.slideshowid+'" style="position:relative;width:'+fadewidth+'px;height:'+fadeheight+'px;overflow:hidden;"><div id="'+this.canvasbase+'_0" style="position:absolute;width:'+fadewidth+'px;height:'+fadeheight+'px;top:0;left:0;filter:progid:DXImageTransform.Microsoft.alpha(opacity=10);opacity:0.1;-moz-opacity:0.1;-khtml-opacity:0.1;background-color:'+fadebgcolor+'"></div><div id="'+this.canvasbase+'_1" style="position:absolute;width:'+fadewidth+'px;height:'+fadeheight+'px;top:0;left:0;filter:progid:DXImageTransform.Microsoft.alpha(opacity=10);opacity:0.1;-moz-opacity:0.1;-khtml-opacity:0.1;background-color:'+fadebgcolor+'"></div></div>')
 else
-document.write('<div><img name="defaultslide'+this.slideshowid+'" src="http://localhost/oficinadossonhos/'+this.postimages[0].src+'"></div>')
+document.write('<div><img name="defaultslide'+this.slideshowid+'" src="'+this.postimages[0].src+'"></div>')
  
 if (iebrowser&&dom||dom) /*if IE5+ or modern browsers such as Firefox*/
 this.startit()
@@ -104,8 +104,8 @@ setTimeout("fadearray["+obj.slideshowid+"].rotateimage()", obj.delay)
 fadeshow.prototype.populateslide=function(picobj, picindex){
 var slideHTML=""
 if (this.theimages[picindex][1]!="") /*if associated link exists for image*/
-slideHTML='<a HREF="http://localhost/oficinadossonhos/'+this.theimages[picindex][1]+'" target="'+this.theimages[picindex][2]+'">'
-slideHTML+='<table border="0"><tr><td style="text-align:center" align="center" valign="middle" height="600"><img style="vertical-align:middle" SRC="http://localhost/oficinadossonhos/'+this.postimages[picindex].src+'" border="'+this.imageborder+'px"></td></tr></table>'
+slideHTML='<a HREF="'+this.theimages[picindex][1]+'" target="'+this.theimages[picindex][2]+'">'
+slideHTML+='<table border="0"><tr><td style="text-align:center" align="center" valign="middle" height="600"><img style="vertical-align:middle" SRC="'+this.postimages[picindex].src+'" border="'+this.imageborder+'px"></td></tr></table>'
 if (this.theimages[picindex][1]!="") /*if associated link exists for image*/
 slideHTML+='</a>'
 picobj.innerHTML=slideHTML
@@ -180,7 +180,7 @@ document.getElementById("prev").Disable=true
 		
 		<tr>
 			<td align="left" width="30%" style="padding-left:48px"><a href="index.php@option=com_phocagallery&amp;view=detail&amp;catid=38%253Aviolao&amp;id=807%253A3&amp;tmpl=component&amp;Itemid=90.html" title="Imagem Anterior" id="prev" onclick="disableBackAndPrev()" ><img src="components/com_phocagallery/assets/images/icon-prev.gif" alt="Imagem Anterior"  /></a></td>
-			<td><a href="http://localhost/oficinadossonhos/index.php?option=com_phocagallery&amp;view=detail&amp;catid=38:violao&amp;id=808:4&amp;tmpl=component&amp;phocaslideshow=0&amp;Itemid=90" title="Parar Slideshow" ><img src="components/com_phocagallery/assets/images/icon-stop.gif" alt="Parar Slideshow"  /></a></td><td><img src="components/com_phocagallery/assets/images/icon-play-grey.gif" alt="Iniciar Slideshow"  /></td>
+			<td><a href="index.php?option=com_phocagallery&amp;view=detail&amp;catid=38:violao&amp;id=808:4&amp;tmpl=component&amp;phocaslideshow=0&amp;Itemid=90" title="Parar Slideshow" ><img src="components/com_phocagallery/assets/images/icon-stop.gif" alt="Parar Slideshow"  /></a></td><td><img src="components/com_phocagallery/assets/images/icon-play-grey.gif" alt="Iniciar Slideshow"  /></td>
 			<td><a href="index.php@option=com_phocagallery&amp;view=detail&amp;catid=38%253Aviolao&amp;id=808%253A4&amp;tmpl=component&amp;Itemid=90.html" onclick="window.location.reload(true);" title="Atualizar" ><img src="components/com_phocagallery/assets/images/icon-reload.gif" alt="Atualizar"  /></a></td>
 			<td><a href="index.php@option=com_phocagallery&amp;view=detail&amp;catid=38%253Aviolao&amp;id=808%253A4&amp;tmpl=component&amp;Itemid=90.html" onclick="window.parent.document.getElementById('sbox-window').close();" title="Fechar a janela" ><img src="components/com_phocagallery/assets/images/icon-exit.gif" alt="Fechar a janela"  /></a></td>
 			<td align="right" width="30%" style="padding-right:48px"><a href="index.php@option=com_phocagallery&amp;view=detail&amp;catid=38%253Aviolao&amp;id=809%253A5&amp;tmpl=component&amp;Itemid=90.html" title="Próxima Imagem" id="next" onclick="disableBackAndNext()" ><img src="components/com_phocagallery/assets/images/icon-next.gif" alt="Próxima Imagem"  /></a></td>

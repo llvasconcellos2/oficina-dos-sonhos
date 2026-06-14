@@ -68,7 +68,7 @@ label.invalid { color: #ff0000; }
 }
 
 .button2-right {
-	background: url(http://localhost/oficinadossonhos/templates/system/images/j_button2_right.png) 100% 0 no-repeat;
+	background: url(templates/system/images/j_button2_right.png) 100% 0 no-repeat;
 	float: left;
 	margin-left: 5px;
 }

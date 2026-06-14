@@ -43,7 +43,7 @@
 
 .sbox-loading #sbox-content
 {
-	background-image:		url(http://localhost/oficinadossonhos/media/system/images/spinner.gif);
+	background-image:		url(media/system/images/spinner.gif);
 	background-repeat:		no-repeat;
 	background-position:	center;
 }
