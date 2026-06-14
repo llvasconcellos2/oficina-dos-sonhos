@@ -36,7 +36,7 @@
 		window.addEvent('domready', function(){ var JTooltips = new Tips($$('.hasTip'), { maxTitleChars: 50, fixed: false}); });
   </script>
   <!--[if lt IE 8]>
-<link rel="stylesheet" href="/oficinadossonhos/components/com_phocagallery/assets/phocagalleryieall.css" type="text/css" />
+<link rel="stylesheet" href="components/com_phocagallery/assets/phocagalleryieall.css" type="text/css" />
 <![endif]-->
   <style type="text/css">
  #phocagallery .name {color: #558bcc ;}
@@ -66,22 +66,15 @@
 			font-weight:bold;
 			z-index:1001;
 			} </style>
-  <!--[if lt IE 7]>
-<style type="text/css">
-.phocagallery-box-file{
- background-color: expression(isNaN(this.js)?(this.js=1, this.onmouseover=new Function("this.className+=' hover';"), 
-this.onmouseout=new Function("this.className=this.className.replace(' hover','');")):false););
-}
- </style>
-<![endif]-->
+  
   <style type="text/css"> 
  #sbox-window {background-color:#6b6b6b;padding:2px} 
  #sbox-overlay {background-color:#000000;} 
  </style>
   <script type="text/javascript">
-Shadowbox.loadSkin("classic", "/oficinadossonhos/components/com_phocagallery/assets/js/shadowbox/src/skin");
-Shadowbox.loadLanguage("en", "/oficinadossonhos/components/com_phocagallery/assets/js/shadowbox/src/lang");
-Shadowbox.loadPlayer(["img"], "/oficinadossonhos/components/com_phocagallery/assets/js/shadowbox/src/player");
+Shadowbox.loadSkin("classic", "components/com_phocagallery/assets/js/shadowbox/src/skin");
+Shadowbox.loadLanguage("en", "components/com_phocagallery/assets/js/shadowbox/src/lang");
+Shadowbox.loadPlayer(["img"], "components/com_phocagallery/assets/js/shadowbox/src/player");
 window.addEvent('domready', function(){
            Shadowbox.init();
 });
@@ -118,9 +111,7 @@ function checkCommentsForm() {
    }
 }
 </script>
-  <!--[if lt IE 8]>
-<link rel="stylesheet" href="/oficinadossonhos/modules/mod_phocagallery_random_image/assets/phocagallery_moduleieall_random_image.css" type="text/css" />
-<![endif]-->
+  
   <style type="text/css">
  #phocagallery-module-ri .name {color: #558bcc ;}
  #phocagallery-module-ri .phocagallery-box-file {background: #fcfcfc ; border:1px solid #e8e8e8 ;}
@@ -148,17 +139,7 @@ function checkCommentsForm() {
 						<script language="javascript" type="text/javascript" src="templates/jaolyra/ja_menus/ja_transmenu/ja.transmenu.js"></script><link href="templates/jaolyra/ja_menus/ja_iconmenu/ja.iconmenu.css" rel="stylesheet" type="text/css" />
 			<script language="javascript" type="text/javascript" src="templates/jaolyra/ja_menus/ja_iconmenu/ja.iconmenu.js"></script>
 
-<!--[if lte IE 6]>
-<style type="text/css">
-.clearfix {	height: 1%;}
-</style>
-<![endif]-->
 
-<!--[if gte IE 7.0]>
-<style type="text/css">
-.clearfix {	display: inline-block;}
-</style>
-<![endif]-->
 
 <script type="text/javascript">
 /*<![CDATA[*/
@@ -192,7 +173,7 @@ document.write ('<style type="text\/css">.ja-tab-content{display: none;}\n#ja-hp
 				</td>
 				<td width="50%" align="center" valign="bottom"><br />
 					<object data="images/stories/swfs/logo.swf" type="application/x-shockwave-flash" height="136" width="438">
-						<param name="src" value="/oficinadossonhos/images/stories/swfs/logo.swf" />
+						<param name="src" value="images/stories/swfs/logo.swf" />
 						<param name="wmode" value="transparent" />
 						<param name="base" value="/" />
 						<param name="name" value="logo.swf" />
@@ -215,7 +196,7 @@ document.write ('<style type="text\/css">.ja-tab-content{display: none;}\n#ja-hp
 				<script type="text/javascript" language="javascript">
 				//<!--[CDATA[
 				if (TransMenu.isSupported()) {
-					TransMenu.updateImgPath('C:\ServidorWEB\www\oficinadossonhos\templates\jaolyra\ja_menus/');
+					TransMenu.updateImgPath('templates/jaolyra/ja_menus/');
 					var ms = new TransMenuSet(TransMenu.direction.down, 0, 0, TransMenu.reference.bottomLeft);
 					TransMenu.subpad_x = 0;
 					TransMenu.subpad_y = 0;
@@ -554,7 +535,7 @@ tmenu90.addItem("Eventos", "index.php@option=com_phocagallery&view=category&id=5
 			<div align="center">
 				<input type="submit" name="task_button" class="button" value="Votar" />
 				&nbsp;
-				<input type="button" name="option" class="button" value="Resultados" onclick="document.location.href='/oficinadossonhos/index.php?option=com_poll&amp;id=1:qual-a-sua-materia-preferida'" />
+				<input type="button" name="option" class="button" value="Resultados" onclick="document.location.href='index.php?option=com_poll&amp;id=1:qual-a-sua-materia-preferida'" />
 			</div>
 		</td>
 	</tr>
