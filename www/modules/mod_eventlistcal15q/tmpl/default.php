@@ -125,8 +125,11 @@ echo "<div class='eventcalq' align='center'>";
     @list($p, $pl) = each($pn); @list($n, $nl) = each($pn); #previous and next links, if applicable
 // Modified by Toni to display << and >> for previous and next months		
 	
-	if($p) $p = ($pl ? '<a href="'.htmlspecialchars($pl).'">&lt;&lt; </a>' : $p).'&nbsp;'; //Modified by Toni
-    if($n) $n = '&nbsp;'.($nl ? '<a href="'.htmlspecialchars($nl).'"> &gt;&gt;</a>' : $n); //Modified by Toni	
+	// if($p) $p = ($pl ? '<a href="'.htmlspecialchars($pl).'">&lt;&lt; </a>' : $p).'&nbsp;'; //Modified by Toni
+  //   if($n) $n = '&nbsp;'.($nl ? '<a href="'.htmlspecialchars($nl).'"> &gt;&gt;</a>' : $n); //Modified by Toni	
+
+		if($p) $p = ($pl ? '<a>&lt;&lt; </a>' : $p).'&nbsp;'; //Modified by LEO
+    if($n) $n = '&nbsp;'.($nl ? '<a> &gt;&gt;</a>' : $n); //Modified by LEO	
 	
 	$month_href = NULL;
     
