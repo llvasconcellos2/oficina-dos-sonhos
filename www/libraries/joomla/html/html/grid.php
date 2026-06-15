@@ -36,7 +36,8 @@ class JHTMLGrid
 		$index		= intval( $direction == 'desc' );
 		$direction	= ($direction == 'desc') ? 'asc' : 'desc';
 
-		$html = '<a href="javascript:tableOrdering(\''.$order.'\',\''.$direction.'\',\''.$task.'\');" title="'.JText::_( 'Click to sort this column' ).'">';
+		// $html = '<a href="javascript:tableOrdering(\''.$order.'\',\''.$direction.'\',\''.$task.'\');" title="'.JText::_( 'Click to sort this column' ).'">';
+		$html = '<a title="'.JText::_( 'Click to sort this column' ).'">';
 		$html .= JText::_( $title );
 		if ($order == $selected ) {
 			$html .= JHTML::_('image.administrator',  $images[$index], '/images/', NULL, NULL);

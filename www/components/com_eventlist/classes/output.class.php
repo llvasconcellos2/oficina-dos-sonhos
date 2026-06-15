@@ -37,7 +37,7 @@ class ELOutput {
 	*/
 	function footer( )
 	{
-		echo 'EventList powered by <a href="http://www.schlu.net">schlu.net</a>';
+		echo '';
 	}
 
 	/**
