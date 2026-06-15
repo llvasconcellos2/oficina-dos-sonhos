@@ -121,7 +121,7 @@ class JHTMLMenu
 		return $mitems;
 	}
 
-	function treerecurse( $id, $indent, $list, &$children, $maxlevel=9999, $level=0, $type=1 )
+	function treerecurse( $id, $indent, $list, $children, $maxlevel=9999, $level=0, $type=1 )
 	{
 		if (@$children[$id] && $level <= $maxlevel)
 		{
