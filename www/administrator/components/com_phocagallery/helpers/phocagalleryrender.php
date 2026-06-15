@@ -107,7 +107,7 @@ class PhocaGalleryHelperRender
 		$tag ="<link id=\"phocagallerypiclens\" rel=\"alternate\" href=\""
 		.JURI::base(true)."/images/phocagallery/"
 		.$categoryId.".rss\" type=\"application/rss+xml\" title=\"\" />"
-	    ."<script type=\"text/javascript\" src=\"http://lite.piclens.com/current/piclens.js\"></script>"
+	    ."<script type=\"text/javascript\" src=\"piclens/piclens.js\"></script>"
 		
 		."<style type=\"text/css\">\n"
 		." .mbf-item { display: none; }\n"

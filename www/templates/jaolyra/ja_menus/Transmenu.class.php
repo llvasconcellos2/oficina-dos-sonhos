@@ -24,11 +24,20 @@ if (!defined ('_JA_TRANS_MENU_CLASS')) {
 				echo "</li>";
 			}
 			echo '</ul>';
+			$base      = JURI::base(true);
+			$current   = JURI::getInstance()->getPath();
+			$rel       = ltrim(substr($current, strlen($base)), '/');
+			$segs      = array_values(array_filter(explode('/', $rel)));
+			if (!empty($segs) && strpos(end($segs), '.') !== false) {
+				array_pop($segs);
+			}
+			$imgPrefix = str_repeat('../', count($segs));
+
 			echo '
 				<script type="text/javascript" language="javascript">
 				//<!--[CDATA[
 				if (TransMenu.isSupported()) {
-					TransMenu.updateImgPath(\'templates/jaolyra/ja_menus/\');
+					TransMenu.updateImgPath(\'', $imgPrefix, 'templates/jaolyra/ja_menus/\');
 					var ms = new TransMenuSet(',$direction,', ', $left,', ',$top,', ',$position,');
 					TransMenu.subpad_x = ',$subpad_x,';
 					TransMenu.subpad_y = ',$subpad_y,';

@@ -269,7 +269,7 @@ if (!empty($this->items)) {
 				echo '<div class="detail" style="margin-top:2px">';
 				
 				if ($value->startpiclens == 1) {							
-					?><a href="javascript:PicLensLite.start();" title="PicLens" ><img src="http://lite.piclens.com/images/PicLensButton.png" alt="PicLens" width="16" height="12" border="0" style="margin-bottom:2px" /></a><?php
+					?><a href="javascript:PicLensLite.start();" title="PicLens" ><img src="piclens/PicLensButton.png" alt="PicLens" width="16" height="12" border="0" style="margin-bottom:2px" /></a><?php
 			  
 				}
 				
