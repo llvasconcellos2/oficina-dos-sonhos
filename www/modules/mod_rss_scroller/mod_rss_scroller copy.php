@@ -7,6 +7,7 @@ require_once(JPATH_ROOT.DS."includes/domit/xml_domit_rss_lite.php");
 $database = &JFactory::getDBO();
 
 $document = &JFactory::getDocument();
+$document->addScript( JURI::base() . '/modules/mod_rss_scroller/scrollerscript.js' );
 $document->addStyleSheet( JURI::base() . '/modules/mod_rss_scroller/scrollerstyle.css' );
 
 
@@ -144,6 +145,18 @@ echo('<span style="padding-left:10px;padding-right:10px;">Vejam como é grande o
 	// }
 	echo "</span></div></div></div>";
 	?>
+	<script type="text/javascript">
+		<!--
+		try {$Gavick;}catch(e){$Gavick = {};};
+		$Gavick["gk_news_highlighternews-highlight-8"] = {
+			"animationType" : 0,
+			"animationSpeed" : 50,
+			"animationInterval" : 500,
+			"animationFun" : Fx.Transitions.linear,
+			"mouseover" : 1};
+
+		//-->
+	</script>
 	<?
 // }
 

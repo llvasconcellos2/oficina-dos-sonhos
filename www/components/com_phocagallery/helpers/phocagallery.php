@@ -658,6 +658,7 @@ class PhocaGalleryPagination extends JPagination
 
 	function getLimitBox()
 	{
+		return '';
 		global $mainframe;
 		
 		$paramsC 			= JComponentHelper::getParams('com_phocagallery') ;

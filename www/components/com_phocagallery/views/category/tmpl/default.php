@@ -36,7 +36,7 @@ if ( @$this->tmpl['image'] || @$this->category->description ) {
 }
 echo '</div>';
 
-echo '<form action="'.$this->tmpl['action'].'" method="post" name="adminForm">';
+// echo '<form action="'.$this->tmpl['action'].'" method="post" name="adminForm">';
 
 // Phoca Gallery Width
 if ($this->tmpl['phocagallerywidth'] != '') {
@@ -403,29 +403,29 @@ if (!empty($this->items)) {
 <p>&nbsp;</p>
 
 <?php
-if (count($this->items)) {
-	echo '<div><center>';
-	if ($this->params->get('show_pagination_limit')) {
+// if (count($this->items)) {
+// 	echo '<div><center>';
+// 	if ($this->params->get('show_pagination_limit')) {
 		
-		echo '<div style="margin:0 10px 0 10px;display:inline;">'
-			.JText::_('Display Num') .'&nbsp;'
-			.$this->tmpl['pagination']->getLimitBox()
-			.'</div>';
-	}
+// 		echo '<div style="margin:0 10px 0 10px;display:inline;">'
+// 			.JText::_('Display Num') .'&nbsp;'
+// 			.$this->tmpl['pagination']->getLimitBox()
+// 			.'</div>';
+// 	}
 	
-	if ($this->params->get('show_pagination')) {
+// 	if ($this->params->get('show_pagination')) {
 	
-		echo '<div style="margin:0 10px 0 10px;display:inline;" class="sectiontablefooter'.$this->params->get( 'pageclass_sfx' ).'" >'
-			.$this->tmpl['pagination']->getPagesLinks()
-			.'</div>'
+// 		echo '<div style="margin:0 10px 0 10px;display:inline;" class="sectiontablefooter'.$this->params->get( 'pageclass_sfx' ).'" >'
+// 			.$this->tmpl['pagination']->getPagesLinks()
+// 			.'</div>'
 		
-			.'<div style="margin:0 10px 0 10px;display:inline;" class="pagecounter">'
-			.$this->tmpl['pagination']->getPagesCounter()
-			.'</div>';
-	}
-	echo '</center></div>';
-}
-echo '</form>';
+// 			.'<div style="margin:0 10px 0 10px;display:inline;" class="pagecounter">'
+// 			.$this->tmpl['pagination']->getPagesCounter()
+// 			.'</div>';
+// 	}
+// 	echo '</center></div>';
+// }
+// echo '</form>';
 
 echo '<div>&nbsp;</div>';
 

@@ -35,6 +35,13 @@ div#news-highlight-8 .gk_news_highlighter_item{
 
 div#news-highlight-8 .nowrap{
 	white-space: nowrap;
+	display: inline-block;
+	animation: marquee-ticker 40s linear infinite;
+}
+
+@keyframes marquee-ticker {
+	from { transform: translateX(100vw); }
+	to   { transform: translateX(-100%); }
 }
 
 div#news-highlight-8 .gk_news_highlighter_title{
