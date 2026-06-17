@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! 1.5 - Open Source Content Management" -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Calendário Letivo</title>
+		<description>Portal Escola Oficina dos Sonhos</description>
+		<link>http://localhost:8080</link>
+		<lastBuildDate>Mon, 15 Jun 2026 13:05:58 +0000</lastBuildDate>
+		<generator>Joomla! 1.5 - Open Source Content Management</generator>
+		<language>pt-br</language>
+		<item>
+			<title>Entrega das Avaliações</title>
+			<link>http://localhost:8080/educacao-infantil/calendario-letivo/details/1.html</link>
+			<guid>http://localhost:8080/educacao-infantil/calendario-letivo/details/1.html</guid>
+			<description><![CDATA[Título: Entrega das Avaliações<br />Local:  / <br />Categoria: Educação Infantil<br />Data: 13/07/2009 - 17/07/2009<br />Hora: <br />Descrição: ]]></description>
+			<category>Educação Infantil</category>
+			<pubDate>Tue, 14 Jul 2009 13:34:50 +0000</pubDate>
+		</item>
+		<item>
+			<title>Colonia de Férias/Recesso Escolar</title>
+			<link>http://localhost:8080/educacao-infantil/calendario-letivo/details/2.html</link>
+			<guid>http://localhost:8080/educacao-infantil/calendario-letivo/details/2.html</guid>
+			<description><![CDATA[Título: Colonia de Férias/Recesso Escolar<br />Local:  / <br />Categoria: Educação Infantil<br />Data: 13/07/2009 - 24/07/2009<br />Hora: <br />Descrição: ]]></description>
+			<category>Educação Infantil</category>
+			<pubDate>Tue, 14 Jul 2009 13:43:02 +0000</pubDate>
+		</item>
+		<item>
+			<title>Início das Atividades Curriculares</title>
+			<link>http://localhost:8080/educacao-infantil/calendario-letivo/details/3.html</link>
+			<guid>http://localhost:8080/educacao-infantil/calendario-letivo/details/3.html</guid>
+			<description><![CDATA[Título: Início das Atividades Curriculares<br />Local:  / <br />Categoria: Educação Infantil<br />Data: 27/07/2009<br />Hora: <br />Descrição: ]]></description>
+			<category>Educação Infantil</category>
+			<pubDate>Tue, 14 Jul 2009 13:44:05 +0000</pubDate>
+		</item>
+		<item>
+			<title>Evento dia dos pais</title>
+			<link>http://localhost:8080/educacao-infantil/calendario-letivo/details/4.html</link>
+			<guid>http://localhost:8080/educacao-infantil/calendario-letivo/details/4.html</guid>
+			<description><![CDATA[Título: Evento dia dos pais<br />Local:  / <br />Categoria: Educação Infantil<br />Data: 08/08/2009<br />Hora: <br />Descrição: ]]></description>
+			<category>Educação Infantil</category>
+			<pubDate>Tue, 14 Jul 2009 13:45:42 +0000</pubDate>
+		</item>
+		<item>
+			<title>Feriado</title>
+			<link>http://localhost:8080/educacao-infantil/calendario-letivo/details/5.html</link>
+			<guid>http://localhost:8080/educacao-infantil/calendario-letivo/details/5.html</guid>
+			<description><![CDATA[Título: Feriado<br />Local:  / <br />Categoria: Educação Infantil<br />Data: 07/09/2009<br />Hora: <br />Descrição: ]]></description>
+			<category>Educação Infantil</category>
+			<pubDate>Tue, 14 Jul 2009 13:47:18 +0000</pubDate>
+		</item>
+		<item>
+			<title>Feira Cultural</title>
+			<link>http://localhost:8080/educacao-infantil/calendario-letivo/details/6.html</link>
+			<guid>http://localhost:8080/educacao-infantil/calendario-letivo/details/6.html</guid>
+			<description><![CDATA[Título: Feira Cultural<br />Local:  / <br />Categoria: Educação Infantil<br />Data: 26/09/2009<br />Hora: <br />Descrição: ]]></description>
+			<category>Educação Infantil</category>
+			<pubDate>Tue, 14 Jul 2009 13:48:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Feriado</title>
+			<link>http://localhost:8080/educacao-infantil/calendario-letivo/details/7.html</link>
+			<guid>http://localhost:8080/educacao-infantil/calendario-letivo/details/7.html</guid>
+			<description><![CDATA[Título: Feriado<br />Local:  / <br />Categoria: Educação Infantil<br />Data: 12/10/2009<br />Hora: <br />Descrição: ]]></description>
+			<category>Educação Infantil</category>
+			<pubDate>Tue, 14 Jul 2009 13:48:50 +0000</pubDate>
+		</item>
+		<item>
+			<title>Feriado</title>
+			<link>http://localhost:8080/educacao-infantil/calendario-letivo/details/8.html</link>
+			<guid>http://localhost:8080/educacao-infantil/calendario-letivo/details/8.html</guid>
+			<description><![CDATA[Título: Feriado<br />Local:  / <br />Categoria: Educação Infantil<br />Data: 02/11/2009<br />Hora: <br />Descrição: ]]></description>
+			<category>Educação Infantil</category>
+			<pubDate>Tue, 14 Jul 2009 13:49:21 +0000</pubDate>
+		</item>
+		<item>
+			<title>Feriado</title>
+			<link>http://localhost:8080/educacao-infantil/calendario-letivo/details/9.html</link>
+			<guid>http://localhost:8080/educacao-infantil/calendario-letivo/details/9.html</guid>
+			<description><![CDATA[Título: Feriado<br />Local:  / <br />Categoria: Educação Infantil<br />Data: 15/11/2009<br />Hora: <br />Descrição: ]]></description>
+			<category>Educação Infantil</category>
+			<pubDate>Tue, 14 Jul 2009 13:50:17 +0000</pubDate>
+		</item>
+		<item>
+			<title>Entrega das Avaliações</title>
+			<link>http://localhost:8080/educacao-infantil/calendario-letivo/details/10.html</link>
+			<guid>http://localhost:8080/educacao-infantil/calendario-letivo/details/10.html</guid>
+			<description><![CDATA[Título: Entrega das Avaliações<br />Local:  / <br />Categoria: Educação Infantil<br />Data: 09/12/2009<br />Hora: <br />Descrição: ]]></description>
+			<category>Educação Infantil</category>
+			<pubDate>Tue, 14 Jul 2009 13:50:52 +0000</pubDate>
+		</item>
+		<item>
+			<title>Evento escola e família</title>
+			<link>http://localhost:8080/educacao-infantil/calendario-letivo/details/11.html</link>
+			<guid>http://localhost:8080/educacao-infantil/calendario-letivo/details/11.html</guid>
+			<description><![CDATA[Título: Evento escola e família<br />Local:  / <br />Categoria: Educação Infantil<br />Data: 11/12/2009<br />Hora: <br />Descrição: ]]></description>
+			<category>Educação Infantil</category>
+			<pubDate>Tue, 14 Jul 2009 13:51:46 +0000</pubDate>
+		</item>
+		<item>
+			<title>Feriado</title>
+			<link>http://localhost:8080/educacao-infantil/calendario-letivo/details/12.html</link>
+			<guid>http://localhost:8080/educacao-infantil/calendario-letivo/details/12.html</guid>
+			<description><![CDATA[Título: Feriado<br />Local:  / <br />Categoria: Educação Infantil<br />Data: 25/12/2009<br />Hora: <br />Descrição: ]]></description>
+			<category>Educação Infantil</category>
+			<pubDate>Tue, 14 Jul 2009 13:52:15 +0000</pubDate>
+		</item>
+	</channel>
+</rss>

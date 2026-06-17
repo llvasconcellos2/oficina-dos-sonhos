@@ -1338,7 +1338,7 @@ a.sublevel:focus {
 #ja-botslwrap {
 	margin: 20px 0;
 	border: 1px solid #CCCCCC;
-	background: url(templates/jaolyra/images/bg-footer.gif) no-repeat top left #FFFFFF;
+	background: url(../images/bg-footer.html) no-repeat top left #FFFFFF;
 }
 
 #ja-botsl {

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! 1.5 - Open Source Content Management" -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Contato</title>
+		<description>Portal Escola Oficina dos Sonhos</description>
+		<link>http://localhost:8080/contato.html</link>
+		<lastBuildDate>Mon, 15 Jun 2026 13:03:31 +0000</lastBuildDate>
+		<generator>Joomla! 1.5 - Open Source Content Management</generator>
+		<language>pt-br</language>
+		<managingEditor>secretaria@oficinadossonhos.com.br (Oficina dos Sonhos)</managingEditor>
+		<item>
+			<title>Alessandra Machado</title>
+			<link>http://localhost:8080/contato/12-contatos/1-alessandra-machado.html</link>
+			<guid>http://localhost:8080/contato/12-contatos/1-alessandra-machado.html</guid>
+			<description><![CDATA[Financeiro - ]]></description>
+			<category>Contatos</category>
+		</item>
+		<item>
+			<title>Evelize da Cunha</title>
+			<link>http://localhost:8080/contato/12-contatos/12-evelize-da-cunha.html</link>
+			<guid>http://localhost:8080/contato/12-contatos/12-evelize-da-cunha.html</guid>
+			<description><![CDATA[Coordenação Pedagógica Educação Infantil - ]]></description>
+			<category>Contatos</category>
+		</item>
+		<item>
+			<title>Fábia Steuernagel Poffo</title>
+			<link>http://localhost:8080/contato/12-contatos/6-fabia-steuernagel-poffo.html</link>
+			<guid>http://localhost:8080/contato/12-contatos/6-fabia-steuernagel-poffo.html</guid>
+			<description><![CDATA[Coordenação Pedagógica Ensino  Fundamental - ]]></description>
+			<category>Contatos</category>
+		</item>
+		<item>
+			<title>Jaqueline Schuster</title>
+			<link>http://localhost:8080/contato/12-contatos/2-jaqueline-schuster.html</link>
+			<guid>http://localhost:8080/contato/12-contatos/2-jaqueline-schuster.html</guid>
+			<description><![CDATA[Secretaria - ]]></description>
+			<category>Contatos</category>
+		</item>
+		<item>
+			<title>Marcia Poletti</title>
+			<link>http://localhost:8080/contato/12-contatos/4-marcia-poletti.html</link>
+			<guid>http://localhost:8080/contato/12-contatos/4-marcia-poletti.html</guid>
+			<description><![CDATA[Diretora / Supervisão Pedagógica - ]]></description>
+			<category>Contatos</category>
+		</item>
+		<item>
+			<title>Pamela Gonçalves de Araújo</title>
+			<link>http://localhost:8080/contato/12-contatos/11-pamela-goncalves-de-araujo.html</link>
+			<guid>http://localhost:8080/contato/12-contatos/11-pamela-goncalves-de-araujo.html</guid>
+			<description><![CDATA[Administrativo - ]]></description>
+			<category>Contatos</category>
+		</item>
+	</channel>
+</rss>

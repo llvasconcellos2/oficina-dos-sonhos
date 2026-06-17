@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! 1.5 - Open Source Content Management" -->
+<feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="pt-br">
+	<title type="text">Oficina dos Sonhos</title>
+	<subtitle type="text">Portal Escola Oficina dos Sonhos</subtitle>
+	<link rel="alternate" type="text/html" href="http://localhost:8080"/>
+	<id>http://localhost:8080/component/eventlist/categoryevents/1.feed</id>
+	<updated>2026-06-15T13:44:34Z</updated>
+	<generator uri="http://joomla.org" version="1.5">Joomla! 1.5 - Open Source Content Management</generator>
+<link rel="self" type="application/atom+xml" href="http://localhost:8080/component/eventlist/categoryevents/1.feed?type=atom" />
+	<entry>
+		<title>Entrega das Avaliações</title>
+		<link rel="alternate" type="text/html" href="http://localhost:8080/component/eventlist/details/1.html"/>
+		<published>2009-07-14T13:34:50Z</published>
+		<updated>2009-07-14T13:34:50Z</updated>
+		<id>http://localhost:8080/component/eventlist/details/1.html</id>
+		<summary type="html">Título: Entrega das Avaliações&lt;br /&gt;Local:  / &lt;br /&gt;Categoria: Educação Infantil&lt;br /&gt;Data: 13/07/2009 - 17/07/2009&lt;br /&gt;Hora: &lt;br /&gt;Descrição: </summary>
+		<content type="html">Título: Entrega das Avaliações&lt;br /&gt;Local:  / &lt;br /&gt;Categoria: Educação Infantil&lt;br /&gt;Data: 13/07/2009 - 17/07/2009&lt;br /&gt;Hora: &lt;br /&gt;Descrição: </content>
+	</entry>
+	<entry>
+		<title>Colonia de Férias/Recesso Escolar</title>
+		<link rel="alternate" type="text/html" href="http://localhost:8080/component/eventlist/details/2.html"/>
+		<published>2009-07-14T13:43:02Z</published>
+		<updated>2009-07-14T13:43:02Z</updated>
+		<id>http://localhost:8080/component/eventlist/details/2.html</id>
+		<summary type="html">Título: Colonia de Férias/Recesso Escolar&lt;br /&gt;Local:  / &lt;br /&gt;Categoria: Educação Infantil&lt;br /&gt;Data: 13/07/2009 - 24/07/2009&lt;br /&gt;Hora: &lt;br /&gt;Descrição: </summary>
+		<content type="html">Título: Colonia de Férias/Recesso Escolar&lt;br /&gt;Local:  / &lt;br /&gt;Categoria: Educação Infantil&lt;br /&gt;Data: 13/07/2009 - 24/07/2009&lt;br /&gt;Hora: &lt;br /&gt;Descrição: </content>
+	</entry>
+	<entry>
+		<title>Início das Atividades Curriculares</title>
+		<link rel="alternate" type="text/html" href="http://localhost:8080/component/eventlist/details/3.html"/>
+		<published>2009-07-14T13:44:05Z</published>
+		<updated>2009-07-14T13:44:05Z</updated>
+		<id>http://localhost:8080/component/eventlist/details/3.html</id>
+		<summary type="html">Título: Início das Atividades Curriculares&lt;br /&gt;Local:  / &lt;br /&gt;Categoria: Educação Infantil&lt;br /&gt;Data: 27/07/2009&lt;br /&gt;Hora: &lt;br /&gt;Descrição: </summary>
+		<content type="html">Título: Início das Atividades Curriculares&lt;br /&gt;Local:  / &lt;br /&gt;Categoria: Educação Infantil&lt;br /&gt;Data: 27/07/2009&lt;br /&gt;Hora: &lt;br /&gt;Descrição: </content>
+	</entry>
+	<entry>
+		<title>Evento dia dos pais</title>
+		<link rel="alternate" type="text/html" href="http://localhost:8080/component/eventlist/details/4.html"/>
+		<published>2009-07-14T13:45:42Z</published>
+		<updated>2009-07-14T13:45:42Z</updated>
+		<id>http://localhost:8080/component/eventlist/details/4.html</id>
+		<summary type="html">Título: Evento dia dos pais&lt;br /&gt;Local:  / &lt;br /&gt;Categoria: Educação Infantil&lt;br /&gt;Data: 08/08/2009&lt;br /&gt;Hora: &lt;br /&gt;Descrição: </summary>
+		<content type="html">Título: Evento dia dos pais&lt;br /&gt;Local:  / &lt;br /&gt;Categoria: Educação Infantil&lt;br /&gt;Data: 08/08/2009&lt;br /&gt;Hora: &lt;br /&gt;Descrição: </content>
+	</entry>
+	<entry>
+		<title>Feriado</title>
+		<link rel="alternate" type="text/html" href="http://localhost:8080/component/eventlist/details/5.html"/>
+		<published>2009-07-14T13:47:18Z</published>
+		<updated>2009-07-14T13:47:18Z</updated>
+		<id>http://localhost:8080/component/eventlist/details/5.html</id>
+		<summary type="html">Título: Feriado&lt;br /&gt;Local:  / &lt;br /&gt;Categoria: Educação Infantil&lt;br /&gt;Data: 07/09/2009&lt;br /&gt;Hora: &lt;br /&gt;Descrição: </summary>
+		<content type="html">Título: Feriado&lt;br /&gt;Local:  / &lt;br /&gt;Categoria: Educação Infantil&lt;br /&gt;Data: 07/09/2009&lt;br /&gt;Hora: &lt;br /&gt;Descrição: </content>
+	</entry>
+	<entry>
+		<title>Feira Cultural</title>
+		<link rel="alternate" type="text/html" href="http://localhost:8080/component/eventlist/details/6.html"/>
+		<published>2009-07-14T13:48:00Z</published>
+		<updated>2009-07-14T13:48:00Z</updated>
+		<id>http://localhost:8080/component/eventlist/details/6.html</id>
+		<summary type="html">Título: Feira Cultural&lt;br /&gt;Local:  / &lt;br /&gt;Categoria: Educação Infantil&lt;br /&gt;Data: 26/09/2009&lt;br /&gt;Hora: &lt;br /&gt;Descrição: </summary>
+		<content type="html">Título: Feira Cultural&lt;br /&gt;Local:  / &lt;br /&gt;Categoria: Educação Infantil&lt;br /&gt;Data: 26/09/2009&lt;br /&gt;Hora: &lt;br /&gt;Descrição: </content>
+	</entry>
+	<entry>
+		<title>Feriado</title>
+		<link rel="alternate" type="text/html" href="http://localhost:8080/component/eventlist/details/7.html"/>
+		<published>2009-07-14T13:48:50Z</published>
+		<updated>2009-07-14T13:48:50Z</updated>
+		<id>http://localhost:8080/component/eventlist/details/7.html</id>
+		<summary type="html">Título: Feriado&lt;br /&gt;Local:  / &lt;br /&gt;Categoria: Educação Infantil&lt;br /&gt;Data: 12/10/2009&lt;br /&gt;Hora: &lt;br /&gt;Descrição: </summary>
+		<content type="html">Título: Feriado&lt;br /&gt;Local:  / &lt;br /&gt;Categoria: Educação Infantil&lt;br /&gt;Data: 12/10/2009&lt;br /&gt;Hora: &lt;br /&gt;Descrição: </content>
+	</entry>
+	<entry>
+		<title>Feriado</title>
+		<link rel="alternate" type="text/html" href="http://localhost:8080/component/eventlist/details/8.html"/>
+		<published>2009-07-14T13:49:21Z</published>
+		<updated>2009-07-14T13:49:21Z</updated>
+		<id>http://localhost:8080/component/eventlist/details/8.html</id>
+		<summary type="html">Título: Feriado&lt;br /&gt;Local:  / &lt;br /&gt;Categoria: Educação Infantil&lt;br /&gt;Data: 02/11/2009&lt;br /&gt;Hora: &lt;br /&gt;Descrição: </summary>
+		<content type="html">Título: Feriado&lt;br /&gt;Local:  / &lt;br /&gt;Categoria: Educação Infantil&lt;br /&gt;Data: 02/11/2009&lt;br /&gt;Hora: &lt;br /&gt;Descrição: </content>
+	</entry>
+	<entry>
+		<title>Feriado</title>
+		<link rel="alternate" type="text/html" href="http://localhost:8080/component/eventlist/details/9.html"/>
+		<published>2009-07-14T13:50:17Z</published>
+		<updated>2009-07-14T13:50:17Z</updated>
+		<id>http://localhost:8080/component/eventlist/details/9.html</id>
+		<summary type="html">Título: Feriado&lt;br /&gt;Local:  / &lt;br /&gt;Categoria: Educação Infantil&lt;br /&gt;Data: 15/11/2009&lt;br /&gt;Hora: &lt;br /&gt;Descrição: </summary>
+		<content type="html">Título: Feriado&lt;br /&gt;Local:  / &lt;br /&gt;Categoria: Educação Infantil&lt;br /&gt;Data: 15/11/2009&lt;br /&gt;Hora: &lt;br /&gt;Descrição: </content>
+	</entry>
+	<entry>
+		<title>Entrega das Avaliações</title>
+		<link rel="alternate" type="text/html" href="http://localhost:8080/component/eventlist/details/10.html"/>
+		<published>2009-07-14T13:50:52Z</published>
+		<updated>2009-07-14T13:50:52Z</updated>
+		<id>http://localhost:8080/component/eventlist/details/10.html</id>
+		<summary type="html">Título: Entrega das Avaliações&lt;br /&gt;Local:  / &lt;br /&gt;Categoria: Educação Infantil&lt;br /&gt;Data: 09/12/2009&lt;br /&gt;Hora: &lt;br /&gt;Descrição: </summary>
+		<content type="html">Título: Entrega das Avaliações&lt;br /&gt;Local:  / &lt;br /&gt;Categoria: Educação Infantil&lt;br /&gt;Data: 09/12/2009&lt;br /&gt;Hora: &lt;br /&gt;Descrição: </content>
+	</entry>
+	<entry>
+		<title>Evento escola e família</title>
+		<link rel="alternate" type="text/html" href="http://localhost:8080/component/eventlist/details/11.html"/>
+		<published>2009-07-14T13:51:46Z</published>
+		<updated>2009-07-14T13:51:46Z</updated>
+		<id>http://localhost:8080/component/eventlist/details/11.html</id>
+		<summary type="html">Título: Evento escola e família&lt;br /&gt;Local:  / &lt;br /&gt;Categoria: Educação Infantil&lt;br /&gt;Data: 11/12/2009&lt;br /&gt;Hora: &lt;br /&gt;Descrição: </summary>
+		<content type="html">Título: Evento escola e família&lt;br /&gt;Local:  / &lt;br /&gt;Categoria: Educação Infantil&lt;br /&gt;Data: 11/12/2009&lt;br /&gt;Hora: &lt;br /&gt;Descrição: </content>
+	</entry>
+	<entry>
+		<title>Feriado</title>
+		<link rel="alternate" type="text/html" href="http://localhost:8080/component/eventlist/details/12.html"/>
+		<published>2009-07-14T13:52:15Z</published>
+		<updated>2009-07-14T13:52:15Z</updated>
+		<id>http://localhost:8080/component/eventlist/details/12.html</id>
+		<summary type="html">Título: Feriado&lt;br /&gt;Local:  / &lt;br /&gt;Categoria: Educação Infantil&lt;br /&gt;Data: 25/12/2009&lt;br /&gt;Hora: &lt;br /&gt;Descrição: </summary>
+		<content type="html">Título: Feriado&lt;br /&gt;Local:  / &lt;br /&gt;Categoria: Educação Infantil&lt;br /&gt;Data: 25/12/2009&lt;br /&gt;Hora: &lt;br /&gt;Descrição: </content>
+	</entry>
+</feed>
