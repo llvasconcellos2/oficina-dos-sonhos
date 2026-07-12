@@ -73,6 +73,13 @@ The portal offered:
 
 The site ran as the school's primary digital touchpoint for years, modernizing how the institution communicated with families and positioning Oficina dos Sonhos as a forward-thinking, professionally run school in its community — at a time when this level of web presence was genuinely rare among small Brazilian private schools.
 
+<!-- KEY FEATURES -->
+### Key Features
+
+- **Full institutional portal** — a heavily customized CMS presenting the school's identity, academics, and values online when few small Brazilian private schools had any web presence, positioning it as forward-thinking and professionally run
+- **Self-service family resources** — supply lists, transportation details, calendars, and activity schedules published online instead of sent home on paper, cutting paper communication and keeping families consistently informed
+- **Community engagement features** — a photo gallery, daily devotional, event calendar, and student polls that made the site an active, returned-to touchpoint reinforcing the school's identity with its community
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SCREENSHOTS -->
